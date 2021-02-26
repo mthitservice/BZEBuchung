@@ -1,0 +1,37 @@
+@page
+@model BuchungenModel
+@{
+    ViewData["Title"] = "Buchungen";
+}
+<h1>Buchungen</h1>
+<div class="text-center">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">von</th>
+                <th scope="col">bis</th>
+                <th scope="col">Teilnehmeranzahl</th>
+                <th scope="col">Raum</th>
+                <th scope="col">Etage</th>
+                <th scope="col">Haus</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            @foreach (var item in Model.Buchungen)
+            {
+                <tr>
+                    <th scope="row">@item.Buchung_id</th>
+                    <td>@item.von</td>
+                    <td>@item.bis</td>
+                    <td>@item.Teilnehmeranzahl</td>
+                    <td>@item.Raumbezeichnung</td>
+                    <td>@item.Etagenbezeichnung</td>
+                    <td>@item.Hausbezeichnung</td>
+                </tr>
+            }
+
+        </tbody>
+    </table>
+</div>

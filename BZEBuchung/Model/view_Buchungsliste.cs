@@ -19,7 +19,7 @@ namespace BZEBuchung.Model
         public DateTime bis { get; set; }
         public string Teilnehmeranzahl { get; set; }
         public short MaxBesucher { get; set; }
-        public float FreiePlätze { get; set; }
+
 
 
     }

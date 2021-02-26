@@ -14422,6 +14422,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Projekt\\BZEBuchung\\BZEBuchung\\Pages\\Buchungen.cshtml",
+      "TargetPath": "Pages\\Buchungen.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Projekt\\BZEBuchung\\BZEBuchung\\Pages\\Shared\\_Layout.cshtml",
       "TargetPath": "Pages\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"

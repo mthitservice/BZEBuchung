@@ -1,0 +1,34 @@
+@page
+@model NeueBuchungModel
+@{
+    ViewData["Title"] = "Neue Buchung";
+}
+<h1>Neue Buchung</h1>
+
+<div class="container">
+    <form method="Post">
+        <div class="form-group">
+            <label for="exampleInputvon">von</label>
+            <input type="datetime-local" class="form-control" name="exampleInputvon" aria-describedby="emailHelp"
+                placeholder="Gib ein Datum ein">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputbis">bis</label>
+            <input type="datetime-local" class="form-control" name="exampleInputbis" aria-describedby="emailHelp"
+                placeholder="Gib ein Datum ein">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputTZ">Anzahl Teilnehmer</label>
+            <input type="number" class="form-control" name="exampleInputTZ" aria-describedby="emailHelp"
+                placeholder="Gib die Anzahl Teilnehmer ein">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputRID">Raum ID</label>
+            <input type="number" class="form-control" name="exampleInputRID" aria-describedby="emailHelp"
+                placeholder="Gib die Raum ID ein">
+        </div>
+
+
+        <button type="submit" class="btn btn-primary">Buchen</button>
+    </form>
+</div>

@@ -27,6 +27,9 @@ namespace BZEBuchung.Pages
         {
             using (var context = new BuchungDbContext())
             {
+                context.Database.EnsureCreated();
+                context.SaveChanges();
+
                 var x = context.view_Buchungsliste.Count();
                 this.AnzahlBuchungen = x;
 

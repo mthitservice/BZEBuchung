@@ -14430,6 +14430,11 @@
       "FilePath": "c:\\Projekt\\BZEBuchung\\BZEBuchung\\Pages\\Shared\\_Layout.cshtml",
       "TargetPath": "Pages\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Projekt\\BZEBuchung\\BZEBuchung\\Pages\\NeueBuchung.cshtml",
+      "TargetPath": "Pages\\NeueBuchung.cshtml",
+      "FileKind": "mvc"
     }
   ],
   "SerializationFormat": "0.2"
